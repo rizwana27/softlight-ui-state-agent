@@ -100,8 +100,12 @@ python main.py --task "On GitHub, open the Issues tab for this repository" --url
 # 3. Go to Settings page of Github Repo
 python main.py --task "On GitHub, open the Settings tab for this repository" --url "https://github.com/<your-username>/softlight-demo-repo" --task-id "github_open_settings"
 
-# 4. Create Linear workspace
+# 4. Create An Issue in the Repo
+python main.py --task "On GitHub, create a new issue titled 'Sample bug report from test' in this repository" --url "https://github.com/<your-username>/softlight-demo-repo/issues/new" --task-id "github_create_issue"
+
+# 5. Create Linear workspace
 python main.py --task "In Linear, create a new workspace named 'Softlight agent demo workspace'" --url "https://linear.app" -task-id "linear_create_workspace"
 
 Each run will produce a new folder under dataset/ with screenshots + metadata.json.
+
 
