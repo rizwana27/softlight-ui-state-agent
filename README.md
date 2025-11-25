@@ -45,12 +45,19 @@ The same loop works across different tasks and apps (GitHub, Linear) without har
 Each run creates a folder in 'dataset/':
 
 '''text
+
 dataset/
+
   <task-id>_<timestamp>/
+  
     step_01_before.png
+    
     step_01_after.png
+    
     ...
+    
     metadata.json
+    
 metadata.json contains:
 
 task info (description, start URL, timestamp)
@@ -67,6 +74,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
 python -m venv venv
+
 # Windows
 .\venv\Scripts\activate
 # macOS / Linux
@@ -96,3 +104,4 @@ python main.py --task "On GitHub, open the Settings tab for this repository" --u
 python main.py --task "In Linear, create a new workspace named 'Softlight agent demo workspace'" --url "https://linear.app" -task-id "linear_create_workspace"
 
 Each run will produce a new folder under dataset/ with screenshots + metadata.json.
+
