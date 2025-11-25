@@ -1,0 +1,188 @@
+{
+  "task_description": "On GitHub, create a new public repository named 'softlight-demo-repo' in my account",
+  "start_url": "https://github.com/new",
+  "task_id": "github_create_repo",
+  "timestamp": "20251124T224747Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "rizwana27",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository owner field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 3,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 4,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 5,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "Create repository",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Submit the new repository form"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_repo_20251124T224747Z\\step_05_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_repo_20251124T224747Z\\step_05_after.png"
+    },
+    {
+      "step": 6,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 7,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 8,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 9,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "Create repository",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Submit the repository creation form"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_repo_20251124T224747Z\\step_09_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_repo_20251124T224747Z\\step_09_after.png"
+    },
+    {
+      "step": 10,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 11,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 12,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "softlight-demo-repo",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fill in the repository name field"
+      },
+      "before": null,
+      "after": null
+    }
+  ]
+}

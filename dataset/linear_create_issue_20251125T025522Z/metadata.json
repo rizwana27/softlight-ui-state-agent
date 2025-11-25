@@ -1,0 +1,70 @@
+{
+  "task_description": "In Linear, on the SOF team board, create a new issue titled 'Softlight agent test issue' and save it",
+  "start_url": "https://linear.app/softlight12/team/SOF/active",
+  "task_id": "linear_create_issue",
+  "timestamp": "20251125T025522Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click on the issues tab to navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Continue with email",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click on the continue with email button to proceed"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_02_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_02_after.png"
+    },
+    {
+      "step": 3,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "Softlight agent test issue",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Enter the issue title"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 4,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "done",
+        "selector": null,
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": ""
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_04_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025522Z\\step_04_final.png"
+    }
+  ],
+  "stopped_reason": "llm_done",
+  "final_url": "https://linear.app/softlight12/team/SOF/active"
+}

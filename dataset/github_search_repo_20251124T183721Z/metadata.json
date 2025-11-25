@@ -1,0 +1,21 @@
+{
+  "task_description": "On this GitHub search results page, open the first repository",
+  "start_url": "https://github.com/search?q=playwright-python&type=repositories",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://github.com/search?q=playwright-python&type=repositories",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href='/microsoft/playwright-python']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Open the first repository"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_search_repo_20251124T183721Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_search_repo_20251124T183721Z\\step_01_after.png"
+    }
+  ]
+}

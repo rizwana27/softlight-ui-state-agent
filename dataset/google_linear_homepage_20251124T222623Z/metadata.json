@@ -1,0 +1,55 @@
+{
+  "task_description": "On Google, search for Linear app and open the official Linear homepage",
+  "start_url": "https://google.com/",
+  "task_id": "google_linear_homepage",
+  "timestamp": "20251124T222623Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "type",
+        "selector": null,
+        "text": "Linear app",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search for Linear app on Google"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "Search",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click the search button"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_linear_homepage_20251124T222623Z\\step_02_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_linear_homepage_20251124T222623Z\\step_02_after.png"
+    },
+    {
+      "step": 3,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "done",
+        "selector": null,
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": ""
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_linear_homepage_20251124T222623Z\\step_03_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_linear_homepage_20251124T222623Z\\step_03_final.png"
+    }
+  ],
+  "stopped_reason": "llm_done",
+  "final_url": "https://www.google.com/"
+}

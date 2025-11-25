@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# Playwright / browser artifacts
+chrome-profile/
+playwright-report/
+*.log
+
+# Dataset & auth (you don't want to push these)
+dataset/
+auth/
+
+# VS Code / editor files
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db

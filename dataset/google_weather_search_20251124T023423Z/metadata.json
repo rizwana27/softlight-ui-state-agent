@@ -1,0 +1,156 @@
+{
+  "task_description": "On Google, search for weather in Dallas and open the first result",
+  "start_url": "https://google.com/",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://www.google.com/?zx=1763951664717&no_sw_cr=1",
+      "action": {
+        "action_type": "type",
+        "selector": "input[name=q]",
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter search query"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://www.google.com/search?q=weather+in+dallas&sca_esv=348c174581f485e0&source=hp&ei=MMQjaaDqApO7qtsPzNqn0Ao&iflsig=AOw8s4IAAAAAaSPSQPD7c0R5l3rvZh6ZjYbdSw4putdz&oq=weather+in+&gs_lp=Egdnd3Mtd2l6Igt3ZWF0aGVyIGluICoCCAAyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMggQABiABBixAzIFEAAYgAQyBRAAGIAESKMhUKMEWNgUcAF4AJABAJgBQKABkQOqAQIxMbgBAcgBAPgBAZgCDKACyAOoAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgILEC4YgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICDhAuGIAEGLEDGNEDGMcBwgIREC4YgAQYsQMYgwEY1AIYigXCAgsQLhiABBjRAxjHAcICCBAuGIAEGLEDwgIOEAAYgAQYsQMYgwEYyQPCAgsQABiABBiSAxiKBcICBRAuGIAEwgIOEAAYgAQYsQMYkgMYgwHCAgsQABiABBixAxjJA5gDCPEFzZEt7LILwNqSBwIxMqAHuW-yBwIxMbgHvwPCBwUwLjQuOMgHKA&sclient=gws-wiz&sei=NsQjaby6Esy2qtsP45rEmQw",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href='https://www.accuweather.com/dallas/weather-forecast']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_02_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_02_after.png"
+    },
+    {
+      "step": 3,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href='https://www.accuweather.com/dallas/weather-forecast']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_03_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_03_after.png"
+    },
+    {
+      "step": 4,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "type",
+        "selector": "input[name='location']",
+        "text": "Dallas",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter location to get weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_04_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_04_after.png"
+    },
+    {
+      "step": 5,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href*='dallas']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_05_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_05_after.png"
+    },
+    {
+      "step": 6,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href*='dallas']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_06_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_06_after.png"
+    },
+    {
+      "step": 7,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href*='dallas']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_07_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_07_after.png"
+    },
+    {
+      "step": 8,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "type",
+        "selector": "input[type='search']",
+        "text": "Dallas",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter search query for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_08_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_08_after.png"
+    },
+    {
+      "step": 9,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href*='dallas']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_09_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_09_after.png"
+    },
+    {
+      "step": 10,
+      "url": "https://weather.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "a[href*='dallas']",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "open the first result for Dallas weather"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_10_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T023423Z\\step_10_after.png"
+    }
+  ]
+}

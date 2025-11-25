@@ -1,0 +1,186 @@
+{
+  "task_description": "On GitHub, create a new repository called 'softlight-demo-project' with default settings",
+  "start_url": "https://github.com/new",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew",
+      "action": {
+        "action_type": "type",
+        "selector": "#login_field",
+        "text": "your_github_username",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter username to sign in"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew",
+      "action": {
+        "action_type": "type",
+        "selector": "#password",
+        "text": "your_github_password",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter password to sign in"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_02_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_02_after.png"
+    },
+    {
+      "step": 3,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": "#repository_name",
+        "text": "softlight-demo-project",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter repository name"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_03_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_03_after.png"
+    },
+    {
+      "step": 4,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_04_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_04_after.png"
+    },
+    {
+      "step": 5,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_05_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_05_after.png"
+    },
+    {
+      "step": 6,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_06_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_06_after.png"
+    },
+    {
+      "step": 7,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_07_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_07_after.png"
+    },
+    {
+      "step": 8,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": "#repository_name",
+        "text": "softlight-demo-project",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter repository name"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_08_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_08_after.png"
+    },
+    {
+      "step": 9,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_09_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_09_after.png"
+    },
+    {
+      "step": 10,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_10_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_10_after.png"
+    },
+    {
+      "step": 11,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "click",
+        "selector": "#new_repo_create_button",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "create the new repository with default settings"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_11_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_11_after.png"
+    },
+    {
+      "step": 12,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": "#repository_name",
+        "text": "softlight-demo-project",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "enter repository name"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_12_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T184239Z\\step_12_after.png"
+    }
+  ]
+}

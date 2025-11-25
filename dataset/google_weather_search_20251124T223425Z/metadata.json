@@ -1,0 +1,188 @@
+{
+  "task_description": "On Google, search for weather in Dallas and open the first result",
+  "start_url": "https://google.com/",
+  "task_id": "google_weather_search",
+  "timestamp": "20251124T223425Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "No selector given for type; converted to wait."
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 2,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search for weather in Dallas (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 3,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search for weather in Dallas (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 4,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": null,
+        "wait_ms": 800,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fallback wait after JSON parse error"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 5,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search query (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 6,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": null,
+        "wait_ms": 800,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fallback wait after JSON parse error"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 7,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "click",
+        "selector": "Search",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click the search button"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T223425Z\\step_07_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\google_weather_search_20251124T223425Z\\step_07_after.png"
+    },
+    {
+      "step": 8,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": null,
+        "wait_ms": 800,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Fallback wait after JSON parse error"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 9,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "No selector given for type; converted to wait."
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 10,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search for weather in Dallas (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 11,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search query (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    },
+    {
+      "step": 12,
+      "url": "https://www.google.com/",
+      "action": {
+        "action_type": "wait",
+        "selector": null,
+        "text": "weather in Dallas",
+        "wait_ms": 500,
+        "screenshot_before": false,
+        "screenshot_after": false,
+        "reason": "Search query (no selector given; converted to wait)"
+      },
+      "before": null,
+      "after": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "task_description": "In Linear, on the SOF team board, create a new issue titled 'Softlight agent test issue' and save it",
+  "start_url": "https://linear.app/softlight12/team/SOF/active",
+  "task_id": "linear_create_issue",
+  "timestamp": "20251125T034322Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click on the issues tab to navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T034322Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T034322Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://linear.app/softlight-agent-demo-workspace/welcome",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T034322Z\\step_02_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T034322Z\\step_02_error.png",
+      "error": "Could not click using selector: Issues"
+    }
+  ],
+  "stopped_reason": "action_error",
+  "error": "Could not click using selector: Issues",
+  "final_url": "https://linear.app/softlight-agent-demo-workspace/welcome"
+}

@@ -1,0 +1,127 @@
+{
+  "task_description": "In Linear, on the SOF team board, create a new issue titled 'Softlight agent test issue' and save it",
+  "start_url": "https://linear.app/softlight12/team/SOF/active",
+  "task_id": "linear_create_issue",
+  "timestamp": "20251125T025601Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": null,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Click on the issues button to navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1625791320%3A1764039368613791&access_type=offline&client_id=463717515632-5f96ed9uaue5p206umg9toffdbfmsfbm.apps.googleusercontent.com&o2v=2&prompt=consent&redirect_uri=https%3A%2F%2Flinear.app%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&service=lso&state=%7B%22key%22%3A%225fTq445WAjUiM1BNh3I9VbwDzhFyL5H1%22%2C%22isMobileAppLogin%22%3Afalse%7D&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANSKHl8EmC0pAFjkNkHiqUX779QuHFwe8u8QaEDTe8a3_MGbezClL21Zj2TL20L7Onk-FE0SlIM4hXKvbz0YZRBGcbNxQHWedq6suyKOLJTpwE7rIj8fuJOHJq4hdChgUmuRfs79b1s__jAFkA8wKBsKz8bbQDb5gQxxBphwtl1g5biYEj_dcd41G5Hz8ZYgGSy738Ezgt9YAqaX9BnktzXmLEIIzF0g01BN9T3YDgo4LASpUN_5dRkmUW-TJ_ZKa_8dqkkkB3zh7PiWyjIl3imirplgBcLgDvtOP4oGM37GjRhAdi-jtLaHbL5WycsAlFcB_ma22zy1y6nxT3D21Y-ZwvwontHkED7uwL5tvxc-sLfREE-Vc9gNLknILMf3Erh9Dg68oJKR3SOl14hgLHsLFuEOeQc_-PAIiZVDOnStaHS8Si1GZMojDVrLps5cnCMNyIhue1KL6nJm3uFC_QLHNewkA%26flowName%3DGeneralOAuthFlow%26as%3DS-1625791320%253A1764039368613791%26client_id%3D463717515632-5f96ed9uaue5p206umg9toffdbfmsfbm.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Flinear.app&rart=ANgoxceBKDIUKIonXu7Z6_H2Ifh_M5JfzFz0XwCRR47uoo2SRlDfGEAn5UrzwU9Vnb6oXEYPt_8DWQub8B7Rma-L9rJZ-WFNlbmMAj644HeoM04mddeGQfE",
+      "action": {
+        "action_type": "manual_login",
+        "reason": "User logged in manually."
+      },
+      "before": null,
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_02_after_login.png"
+    },
+    {
+      "step": 3,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_03_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_03_after.png"
+    },
+    {
+      "step": 4,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_04_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_04_after.png"
+    },
+    {
+      "step": 5,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_05_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_05_after.png"
+    },
+    {
+      "step": 6,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_06_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_06_after.png"
+    },
+    {
+      "step": 7,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_07_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_07_after.png"
+    },
+    {
+      "step": 8,
+      "url": "https://linear.app/softlight12/team/SOF/active",
+      "action": {
+        "action_type": "click",
+        "selector": "Issues",
+        "text": null,
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Navigate to the issues page"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_08_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\linear_create_issue_20251125T025601Z\\step_08_error.png",
+      "error": "Could not click using selector: Issues"
+    }
+  ],
+  "stopped_reason": "action_error",
+  "error": "Could not click using selector: Issues",
+  "final_url": "https://linear.app/softlight12/team/SOF/active"
+}

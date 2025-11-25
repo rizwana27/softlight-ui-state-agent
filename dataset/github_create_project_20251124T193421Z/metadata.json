@@ -1,0 +1,35 @@
+{
+  "task_description": "On GitHub, create a new repository called 'softlight-demo-project' with default settings",
+  "start_url": "https://github.com/new",
+  "task_id": "github_create_project",
+  "timestamp": "20251124T193421Z",
+  "steps": [
+    {
+      "step": 1,
+      "url": "https://github.com/new",
+      "action": {
+        "action_type": "type",
+        "selector": "input[name='repository[name]']",
+        "text": "softlight-demo-project",
+        "wait_ms": 500,
+        "screenshot_before": true,
+        "screenshot_after": true,
+        "reason": "Enter repository name"
+      },
+      "before": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T193421Z\\step_01_before.png",
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T193421Z\\step_01_after.png"
+    },
+    {
+      "step": 2,
+      "url": "https://github.com/rizwana27",
+      "action": {
+        "action_type": "auto_done",
+        "reason": "Detected GitHub repo page (create workflow completed)"
+      },
+      "before": null,
+      "after": "C:\\Users\\SHAIK RIZWANA\\Desktop\\Softlight\\dataset\\github_create_project_20251124T193421Z\\step_02_final_repo.png"
+    }
+  ],
+  "stopped_reason": "github_repo_detected",
+  "final_url": "https://github.com/rizwana27"
+}
